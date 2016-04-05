@@ -21,12 +21,19 @@ body {
 
 #main-content section{
 	background-color: #e7e7e7;
-	margin:0;
+	margin-left:0;
+	margin-right:0;
+	margin-bottom:20px;
 }
 #main-content section p{
 	margin:auto 10px;
 }
-
+#collapsible-menu-items{
+	background-color: #fff
+}
+#collapsible-menu-items li:nth-child(1),#collapsible-menu-items li:nth-child(2){
+	border-bottom:1px solid #e7e7e7;
+}
 @media (max-width:767px){
 
 #main-content section{
