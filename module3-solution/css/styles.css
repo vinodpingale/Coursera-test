@@ -1,0 +1,37 @@
+body {
+  font-size: 16px;
+  
+  font-family: 'Oxygen', sans-serif;
+}
+#header-nav{
+	border-radius:0;
+	
+}
+.navbar-header a{
+	font-size:1.6em;
+	font-weight:bold;
+}
+#nav-list a{
+ text-align:center;
+
+}
+#nav-list a:hover,#nav-list a:focus{
+	background-color: #e7e7e7
+}
+
+#main-content section{
+	background-color: #e7e7e7;
+	margin:0;
+}
+#main-content section p{
+	margin:auto 10px;
+}
+
+@media (max-width:767px){
+
+#main-content section{
+	
+	margin:20px;
+}
+
+}
