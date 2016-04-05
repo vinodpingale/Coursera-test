@@ -24,18 +24,23 @@ body {
 	margin-left:0;
 	margin-right:0;
 	margin-bottom:20px;
+	margin-top:40px;	
+}
+#main-content h2{
+	margin-top:-5px;
 }
 #main-content section p{
 	margin:auto 10px;
 }
-#collapsible-menu-items{
-	background-color: #fff
-}
+
 #collapsible-menu-items li:nth-child(1),#collapsible-menu-items li:nth-child(2){
 	border-bottom:1px solid #e7e7e7;
 }
 @media (max-width:767px){
 
+#collapsible-menu-items{
+	background-color: #fff
+}
 #main-content section{
 	
 	margin:20px;
