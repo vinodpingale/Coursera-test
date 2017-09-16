@@ -1,0 +1,17 @@
+<table class="table table-bordered table-striped">
+  <thead>
+    <th>Name</th>
+    <th>Short Name</th>
+    <th>Description</th>
+    <th>Remove</th>
+  </thead>
+  <tbody>
+  <tr ng-repeat="item in foundList">
+    <td>{{item.name}}</td>
+    <td> {{item.short_name}}</td>
+    <td> {{item.description}}</td>
+    <td><button type="button" name="button" ng-click="onRemove({itemIndex:$index})">Don't want this one!</button></td>
+  </tr>
+  </tbody>
+
+</table>
