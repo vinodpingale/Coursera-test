@@ -1,0 +1,7 @@
+<h1 class="well text-center">Categories</h1>
+
+<ul class="list-unstyled">
+  <li ng-repeat="category in $ctrl.prop1">
+    <a ui-sref="items({categoryShortName:category.short_name})">{{category.name}}</a>
+  </li>
+</ul>
